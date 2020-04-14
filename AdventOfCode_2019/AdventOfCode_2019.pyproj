@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>95f4afd1-a4f4-493f-b86c-be3845ac2cb1</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Reference.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>AdventOfCode_2019</Name>
+    <RootNamespace>AdventOfCode_2019</RootNamespace>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AdventOfCode_2019.py" />
+    <Compile Include="Day01\Day01_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day01\Day01_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day02\Day02_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day02\Day02_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day03\Day03_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day03\Day03_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day04\Day04_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day04\Day04_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day05\Day05_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day05\Day05_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day06\Day06_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day06\Day06_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day07\Day07_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day07\Day07_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day07\Day07_Computer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day08\Day08_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day08\Day08_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day09\Day09_Computer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day09\Day09_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day09\Day09_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day10\Day10_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day10\Day10_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day11\Day11_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day11\Day11_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day12\Day12_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day12\Day12_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day13\Day13_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day13\Day13_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day14\Day14_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day14\Day14_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day15\Day15_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day15\Day15_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day16\Day16_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day16\Day16_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day17\Day17_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day17\Day17_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day18\Day18_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day18\Day18_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day19\Day19_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day19\Day19_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day20\Day20_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day20\Day20_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day21\Day21_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day21\Day21_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day22\Day22_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day22\Day22_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day23\Day23_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day23\Day23_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day24\Day24_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day24\Day24_Part2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Day25\Day25_Part1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reference.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Day01\" />
+    <Folder Include="Day02\" />
+    <Folder Include="Day03\" />
+    <Folder Include="Day04\" />
+    <Folder Include="Day05\" />
+    <Folder Include="Day06\" />
+    <Folder Include="Day07\" />
+    <Folder Include="Day08\" />
+    <Folder Include="Day09\" />
+    <Folder Include="Day10\" />
+    <Folder Include="Day11\" />
+    <Folder Include="Day12\" />
+    <Folder Include="Day13\" />
+    <Folder Include="Day14\" />
+    <Folder Include="Day15\" />
+    <Folder Include="Day16\" />
+    <Folder Include="Day17\" />
+    <Folder Include="Day18\" />
+    <Folder Include="Day19\" />
+    <Folder Include="Day20\" />
+    <Folder Include="Day21\" />
+    <Folder Include="Day22\" />
+    <Folder Include="Day23\" />
+    <Folder Include="Day24\" />
+    <Folder Include="Day25\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Day01\Day01_Input.txt" />
+    <Content Include="Day02\Day02_Input.txt" />
+    <Content Include="Day03\Day03_Input.txt" />
+    <Content Include="Day05\Day05_Input.txt" />
+    <Content Include="Day06\Day06_Input.txt" />
+    <Content Include="Day07\Day07_Input.txt" />
+    <Content Include="Day08\Day08_Input.txt" />
+    <Content Include="Day09\Day09_Input.txt" />
+    <Content Include="Day10\Day10_Input.txt" />
+    <Content Include="Day11\Day11_Input.txt" />
+    <Content Include="Day12\Day12_Input.txt" />
+    <Content Include="Day13\Day13_Input.txt" />
+    <Content Include="Day14\Day14_Input.txt" />
+    <Content Include="Day14\Day14_Puzzle.txt" />
+    <Content Include="Day15\Day15_Input.txt" />
+    <Content Include="Day16\Day16_Input.txt" />
+    <Content Include="Day17\Day17_Input.txt" />
+    <Content Include="Day18\Day18_Input.txt" />
+    <Content Include="Day19\Day19_Input.txt" />
+    <Content Include="Day20\Day20_Input.txt" />
+    <Content Include="Day21\Day21_Input.txt" />
+    <Content Include="Day22\Day22_Input.txt" />
+    <Content Include="Day23\Day23_Input.txt" />
+    <Content Include="Day24\Day24_Input.txt" />
+    <Content Include="Day25\Day25_Input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
